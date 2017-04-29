@@ -2,13 +2,26 @@
   "name": "videogallery",
   "version": "0.0.1",
   "description": "simple video gallery",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron main.js",
+    "build": "webpack --progress --colors --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Franz Eichhorn",
   "license": "MIT",
   "devDependencies": {
     "video.js": "^5.19.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^1.6.2",
+    "js-yaml": "^3.8.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1"
   }
 }
