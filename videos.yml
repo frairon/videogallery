@@ -1,0 +1,11 @@
+
+videos:
+  - name:
+    file:     2014-01-06-Lindy.mp4
+    keywords: [charleston, lindy]
+    figures:  [swingout]
+
+  - name:
+    file:     2014-01-13-Lindy-Hop.mp4
+    keywords: [charleston, lindy]
+    figures:  [swingout]

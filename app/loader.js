@@ -2,11 +2,13 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 
 class Loader {
-  constructor() {}
+  constructor() {
+    this.videos = [];
+  }
 
   load(file) {
-    var doc = yaml.safeLoad(fs.readFileSync(file, 'utf8'));
-    console.log(doc);
+    this.videos = yaml.safeLoad(fs.readFileSync(file, 'utf8'));
+    console.log("Loaded", this.videos.videos.length, "videos");
   }
 };
 
